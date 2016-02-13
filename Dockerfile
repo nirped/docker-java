@@ -14,6 +14,7 @@ ENV JAVA_VERSION_MAJOR=8 \
     PATH=${PATH}:/opt/jdk/bin \
     LANG=C.UTF-8
 
+
 # do all in one step
 RUN apk upgrade --update && \
     apk add --update curl ca-certificates bash && \
